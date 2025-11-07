@@ -1,4 +1,31 @@
+/* HEADER */
+header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  color: #f5f5f5;
+  border-bottom: 1px solid #333;
+  box-shadow: 0 2px 20px #0007;
+}
 
+header h1 {
+  font-size: 2.3rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+  background: linear-gradient(90deg, #0ff, #09f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitulo {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #ccc;
+  opacity: 0.9;
+}
 /* JUEGOS */
 #juegos-container {
   display: grid;
@@ -70,4 +97,15 @@
   font-size: 0.9rem;
   color: #0ff;
   text-decoration: none;
+}
+@media (max-width: 500px) {
+  #juegos-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .juego-card {
+    max-width: 320px;
+  }
 }
