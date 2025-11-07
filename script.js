@@ -13,14 +13,12 @@ async function mostrarJuegos(lista) {
 
   for (const juego of lista) {
     try {
-      // Buscar datos del juego en RAWG
       const res = await fetch(
         `https://api.rawg.io/api/games?key=${apiKey}&search=${encodeURIComponent(juego.nombre)}`
       );
       const data = await res.json();
       const info = data.results?.[0];
 
-      // Crear tarjeta de juego
       const card = document.createElement("div");
       card.classList.add("juego-card");
 
@@ -31,8 +29,8 @@ async function mostrarJuegos(lista) {
         <img src="${imagen}" alt="${nombre}">
         <div class="juego-info">
           <h3>${nombre}</h3>
-          <p>${juego.comentario}</p>
-          <p class="nota">⭐ ${juego.nota}</p>
+          <p>${juego.comentario || ""}</p>
+          <p class="nota">⭐ ${juego.nota ?? "?"}</p>
           <a href="juego.html?id=${juego.id}" class="ver-mas">Ver ficha →</a>
         </div>
       `;
@@ -45,24 +43,19 @@ async function mostrarJuegos(lista) {
 }
 
 // ==============================
-// FUNCIÓN: CARGAR JSON CON IDS AUTOMÁTICOS
+// FUNCIÓN: CARGAR JSON
 // ==============================
 async function cargarJuegos() {
   try {
     const res = await fetch("juegos.json");
     const misJuegos = await res.json();
 
-    // Asignar IDs automáticos si no existen
     misJuegos.forEach((juego, index) => {
-      if (juego.id === undefined) {
-        juego.id = index + 1;
-      }
+      if (juego.id === undefined) juego.id = index + 1;
     });
 
-    // Mostrar todos los juegos al inicio
     mostrarJuegos(misJuegos);
 
-    // Filtrado dinámico
     inputBusqueda.addEventListener("input", (e) => {
       const valor = e.target.value.toLowerCase();
       const filtrados = misJuegos.filter((j) =>
@@ -75,7 +68,4 @@ async function cargarJuegos() {
   }
 }
 
-// ==============================
-// INICIALIZAR
-// ==============================
 cargarJuegos();

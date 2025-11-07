@@ -1,0 +1,73 @@
+
+/* JUEGOS */
+#juegos-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.5rem;
+  width: 95%;
+  margin: 0 auto;
+  padding: 2rem;
+  justify-items: center;
+}
+
+@media (max-width: 1200px) {
+  #juegos-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  #juegos-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  #juegos-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.juego-card {
+  width: 100%;
+  background: #1a1a1a;
+  color: #f1f1f1;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #0005;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.juego-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #0008;
+}
+
+.juego-card img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+
+.juego-info {
+  padding: 0.7rem;
+  text-align: center;
+}
+
+.juego-info h3 {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+
+.nota {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.ver-mas {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: #0ff;
+  text-decoration: none;
+}
