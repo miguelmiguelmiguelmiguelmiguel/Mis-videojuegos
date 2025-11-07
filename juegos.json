@@ -1,7 +1,8 @@
 [
-    { "nombre": "Astroneer", "comentario": "Exploración espacial relajante y creativa. Esculpe planetas, construye bases y disfruta del cosmos a tu ritmo.", "nota": 8 },
+    { "nombre": "Astroneer", "comentario": "Exploración espacial relajante y creativa. Esculpe planetas, construye bases y disfruta del cosmos a tu ritmo.","nota": 8 },
 
 
+    { "nombre": "Balatro", "comentario": "El póker convertido en una droga roguelike. Ingenioso, hipnótico y peligrosamente adictivo.", "nota": 10 },
     { "nombre": "Battlefield 1", "comentario": "Caos, épica y una ambientación de Primera Guerra Mundial impecable.", "nota": 8 },
     { "nombre": "Battlefield 4", "comentario": "Acción moderna con destrucción y ritmo frenético. Muy sólido.", "nota": 10 },
     { "nombre": "Battlefield V", "comentario": "Bonito, pero sin alma. Se siente algo perdido.", "nota": 6 },
@@ -9,6 +10,7 @@
     { "nombre": "Bioshock Infinite", "comentario": "Belleza y crueldad mezcladas con poesía.", "nota": 8 },
     { "nombre": "Blasphemous", "comentario": "Pixel art y acción brutal con un lore oscuro y perturbador.", "nota": 9 },
     { "nombre": "Bloodborne", "comentario": "Elegante y agresivo. Un festín para los masoquistas del alma.", "nota": 9 },
+    { "nombre": "Brotato", "comentario": "Caos controlado y satisfacción inmediata. Un festival de mejoras y disparos sin descanso.", "nota": 10 },
     { "nombre": "Brothers in Arms: Road to Hill 30", "comentario": "Una experiencia táctica en la Segunda Guerra Mundial. Combina estrategia, acción y camaradería de escuadrón.", "nota": 9 },
 
 
@@ -91,11 +93,15 @@
     { "nombre": "Metro: Last Light", "comentario": "Más acción, menos supervivencia, esencia Metro.", "nota": 8 },
 
 
+    { "nombre": "Nuclear Throne", "comentario": "Acción frenética y pura. Cada partida es una batalla por sobrevivir al caos radiactivo.", "nota": 9 },
+
+
     { "nombre": "Ratchet & Clank ps4", "comentario": "Un reinicio visualmente impecable, aunque menos carismático que el original.", "nota": 9 },
     { "nombre": "Ratchet & Clank: Up Your Arsenal", "comentario": "Diversión pura, humor y ritmo perfecto. El más completo de la saga clásica.", "nota": 10 },
     { "nombre": "Ratchet & Clank: Size Matters", "comentario": "Pequeño en escala, grande en esencia. Un digno portátil.", "nota": 10 },
     { "nombre": "Ratchet & Clank: Agente Secreto Clank", "comentario": "Simpático spin-off, brilla más por encanto que por su gameplay.", "nota": 7 },
     { "nombre": "Ratchet & Clank (2002)", "comentario": "Donde empezó todo. Plataformas, acción y carisma a raudales.", "nota": 8 },
+    { "nombre": "Risk of Rain", "comentario": "Pixelart, tensión y progreso constante. Cada minuto aumenta el desafío y la recompensa.", "nota": 8 },
 
     { "nombre": "Saints Row: The Third", "comentario": "Caos, humor y libertad absoluta. Un sandbox que no se toma en serio y eso lo hace brillante.", "nota": 9 },
     { "nombre": "Saints Row (2022)", "comentario": "Intento de reinicio que pierde la esencia. Cumple, pero sin alma ni chispa.", "nota": 5 },
@@ -106,6 +112,9 @@
     { "nombre": "The Binding of Isaac", "comentario": "Caótico, grotesco y brillante. El roguelike definitivo.", "nota": 10 },
     { "nombre": "The Last of Us", "comentario": "Jugabilidad e historias impecables.", "nota": 9 },
     { "nombre": "The Last of Us Part II", "comentario": "Una secuela valiente que perfecciona aún más la jugabilidad.", "nota": 9 },
+
+
+    { "nombre": "Vampire Survivors", "comentario": "Minimalismo que roza la genialidad. Empieza simple, acaba siendo una tormenta de poder.", "nota": 10 },
 
 
     { "nombre": "XIII", "comentario": "Un cómic hecho videojuego. Estilo visual inconfundible y una historia de conspiraciones que atrapa.", "nota": 8 },

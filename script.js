@@ -1,7 +1,7 @@
 // ==============================
 // CONFIGURACIÓN Y VARIABLES
 // ==============================
-const apiKey = "9b18c6889c334779804abb181c00e847";
+const apiKey = "5f293e60061a4ddda10338c50c1d61e6";
 const contenedor = document.getElementById("juegos-container");
 const inputBusqueda = document.getElementById("searchInput");
 
@@ -31,7 +31,7 @@ async function mostrarJuegos(lista) {
           <h2>${nombre}</h2>
           <p>${juego.comentario || ""}</p>
           <p class="nota">⭐ ${juego.nota ?? "?"}</p>
-          <a href="juego.html?id=${juego.id}" class="ver-mas">Ver ficha →</a>
+          <a href="juego.html?id=${juego.id}" target="_blank" class="ver-mas">Ver ficha →</a>
         </div>
       `;
 
