@@ -28,7 +28,7 @@ async function mostrarJuegos(lista) {
       card.innerHTML = `
         <img src="${imagen}" alt="${nombre}">
         <div class="juego-info">
-          <h3>${nombre}</h3>
+          <h2>${nombre}</h2>
           <p>${juego.comentario || ""}</p>
           <p class="nota">⭐ ${juego.nota ?? "?"}</p>
           <a href="juego.html?id=${juego.id}" class="ver-mas">Ver ficha →</a>

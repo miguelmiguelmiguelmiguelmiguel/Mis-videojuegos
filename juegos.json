@@ -97,7 +97,8 @@
     { "nombre": "Ratchet & Clank: Agente Secreto Clank", "comentario": "Simpático spin-off, brilla más por encanto que por su gameplay.", "nota": 7 },
     { "nombre": "Ratchet & Clank (2002)", "comentario": "Donde empezó todo. Plataformas, acción y carisma a raudales.", "nota": 8 },
 
-
+    { "nombre": "Saints Row: The Third", "comentario": "Caos, humor y libertad absoluta. Un sandbox que no se toma en serio y eso lo hace brillante.", "nota": 9 },
+    { "nombre": "Saints Row (2022)", "comentario": "Intento de reinicio que pierde la esencia. Cumple, pero sin alma ni chispa.", "nota": 5 },
     { "nombre": "Silent Hill 2 (2001)", "comentario": "Lloras de miedo, o lloras por la historia, magnífico.", "nota": 10 },
     { "nombre": "Silent Hill: Shattered Memories", "comentario": "Una reinterpretación emocional y psicológica del original. Más mente que monstruos.", "nota": 8 },
 

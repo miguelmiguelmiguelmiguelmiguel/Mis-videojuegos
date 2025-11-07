@@ -13,9 +13,6 @@ header h1 {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 0.8rem;
-  background: linear-gradient(90deg, #0ff, #09f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .subtitulo {
