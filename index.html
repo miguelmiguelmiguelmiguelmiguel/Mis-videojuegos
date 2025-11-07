@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora de juegos - Miguel Jiménez</title>
+    <style>
+        body {background:#f9f9f9;color:#222;display:flex;flex-direction:column;min-height:100vh;font-family:"Inter",sans-serif}
+        header {text-align:center;padding:2rem 1rem}
+        header h1 {font-size:2rem;letter-spacing:1px}
+        .subtitulo {font-size:1rem;color:#555;margin-top:0.5rem}
+        #buscador {display:flex;justify-content:center;margin:1.5rem 0}
+        #buscador input {width:90%;max-width:500px;padding:.8rem 1rem;border:1px solid #ccc;border-radius:8px;font-size:1rem}
+        #juegos-container {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;padding:1rem 2rem}
+        .juego-card {background:#fff;border-radius:10px;box-shadow:0 3px 6px rgba(0,0,0,.1);overflow:hidden;transition:transform .2s ease;display:flex;flex-direction:column;justify-content:space-between}
+        .juego-card:hover {transform:translateY(-4px)}
+        .juego-card img {width:100%;height:300px;object-fit:cover}
+        .juego-info {padding:1rem}
+        .juego-info h3 {margin-bottom:.4rem}
+        .juego-info p {color:#555;font-size:.9rem;margin-bottom:.4rem}
+        .nota {font-weight:bold;color:#ff9800}
+        .ver-mas {display:inline-block;margin-top:.6rem;text-decoration:none;color:#0078d7;font-weight:500;transition:color .2s ease}
+        .ver-mas:hover {color:#005da8}
+        footer {text-align:center;margin-top:auto;padding:1.5rem;font-size:.85rem;color:#777}
+    </style>
+    </head>
+    <body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Bitácora de Juegos</h1>
+        <p class="subtitulo">Un registro personal de los mundos que he explorado</p>
+    </header>
+
+    <!-- BUSCADOR / FILTRO -->
+    <section id="buscador">
+        <input type="text" id="searchInput" placeholder="Buscar juego, saga o consola...">
+    </section>
+
+    <!-- LISTADO DE JUEGOS -->
+    <main id="juegos-container">
+
+        <!-- EJEMPLO DE TARJETA (el JS generará estas dinámicamente) -->
+        <div class="juego-card">
+            <img src="imagenes/metro2033-portada.jpg" alt="Metro 2033 Redux">
+            <div class="juego-info">
+                <h3>Metro 2033 Redux</h3>
+                <p>PC (Steam) — 2016</p>
+                <a href="juego.html?id=1" class="ver-mas">Ver ficha →</a>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Miguel Jiménez — “Cada partida deja una huella.”</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

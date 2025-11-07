@@ -1,0 +1,111 @@
+[
+    { "nombre": "Astroneer", "comentario": "Exploración espacial relajante y creativa. Esculpe planetas, construye bases y disfruta del cosmos a tu ritmo.", "nota": 8 },
+
+
+    { "nombre": "Battlefield 1", "comentario": "Caos, épica y una ambientación de Primera Guerra Mundial impecable.", "nota": 8 },
+    { "nombre": "Battlefield 4", "comentario": "Acción moderna con destrucción y ritmo frenético. Muy sólido.", "nota": 10 },
+    { "nombre": "Battlefield V", "comentario": "Bonito, pero sin alma. Se siente algo perdido.", "nota": 6 },
+    { "nombre": "Battlefield 2042", "comentario": "Ambicioso, pero mal ejecutado. Potencial desaprovechado.", "nota": 5 },
+    { "nombre": "Bioshock Infinite", "comentario": "Belleza y crueldad mezcladas con poesía.", "nota": 8 },
+    { "nombre": "Bloodborne", "comentario": "Elegante y agresivo. Un festín para los masoquistas del alma.", "nota": 9 },
+    { "nombre": "Brothers in Arms: Road to Hill 30", "comentario": "Una experiencia táctica en la Segunda Guerra Mundial. Combina estrategia, acción y camaradería de escuadrón.", "nota": 9 },
+
+
+    { "nombre": "Call of Duty: Advanced Warfare", "comentario": "Verticalidad, ritmo y exoesqueletos. Innovador, pero irregular.", "nota": 7 },
+    { "nombre": "Call of Duty: Black Ops", "comentario": "Narrativa potente y multijugador inolvidable. Un clásico moderno.", "nota": 9 },
+    { "nombre": "Call of Duty: Black Ops II", "comentario": "Futuro, decisiones y una campaña sorprendentemente buena.", "nota": 8 },
+    { "nombre": "Call of Duty: Black Ops III", "comentario": "Demasiado futurista, pero divertido en lo jugable.", "nota": 6 },
+    { "nombre": "Call of Duty: Black Ops 4", "comentario": "Sin campaña, pero con un multijugador ágil y entretenido.", "nota": 7 },
+    { "nombre": "Call of Duty: Black Ops 6", "comentario": "Promete regresar a sus raíces con fuerza.", "nota": 8 },
+    { "nombre": "Call of Duty: Ghosts", "comentario": "Olvidable, pero con buenas ideas desaprovechadas.", "nota": 8 },
+    { "nombre": "Call of Duty 4: Modern Warfare", "comentario": "Gráficos brutales y un realismo intenso. Campaña excelente.", "nota": 9 },
+    { "nombre": "Call of Duty: Modern Warfare 3", "comentario": "Explosivo, épico y directo. Un cierre a la altura. Multijugador inmejorable.", "nota": 10 },
+    { "nombre": "Call of Duty: WWII", "comentario": "Regreso a lo clásico con mucha fuerza y respeto histórico.", "nota": 8 },
+    { "nombre": "Call of Duty: Cold War", "comentario": "Espías, conspiraciones y nostalgia ochentera. Muy correcto.", "nota": 8 },
+    { "nombre": "Celeste", "comentario": "Una montaña que escalar por dentro y por fuera. Plataformas que escalan tu corazón.", "nota": 9 },
+    { "nombre": "Control", "comentario": "Ciencia ficción elegante y terrorífica. Buena historia.", "nota": 9 },
+    { "nombre": "Cyberpunk 2077", "comentario": "Caótico, hermoso y lleno de potencial humano.", "nota": 8 },
+
+
+    { "nombre": "Dark Souls", "comentario": "Una lección de diseño y paciencia. Duro, pero justo.", "nota": 7 },
+    { "nombre": "Dark Souls II", "comentario": "Distinto, pero con identidad propia. Su oscuridad es más melancólica.", "nota": 8 },
+    { "nombre": "Dark Souls III", "comentario": "La culminación del sufrimiento. Todo lo aprendido se siente aquí.", "nota": 9 },
+    { "nombre": "Dead Cells", "comentario": "Rápido, desafiante y con una fluidez impecable. Cada muerte enseña algo nuevo.", "nota": 8 },
+    { "nombre": "Dead Island", "comentario": "Zombis, supervivencia y caos tropical. Una experiencia intensa y sangrienta.", "nota": 9 },
+    { "nombre": "Dead Island 2", "comentario": "Más grande, más divertido y con un enfoque aún más caótico en la supervivencia zombi.", "nota": 8 },
+    { "nombre": "Death Stranding", "comentario": "El arte de caminar con propósito. Extraño, bello, único. Kojimada.", "nota": 9 },
+    { "nombre": "Deus Ex: Human Revolution", "comentario": "Un regreso brillante a la saga, combinando sigilo, acción y decisiones impactantes.", "nota": 9 },
+    { "nombre": "Deus Ex: Mankind Divided", "comentario": "Secuela que amplía la narrativa y el mundo, aunque con algunos altibajos en ritmo.", "nota": 8 },
+    { "nombre": "Dishonored", "comentario": "Libertad, sigilo y venganza. Un diseño ejemplar.", "nota": 9 },
+    { "nombre": "Dying Light", "comentario": "Zombis, parkour y tensión constante. La ciudad es un terreno de juego y de muerte.", "nota": 8 },
+
+
+    { "nombre": "Elden Ring", "comentario": "Un mundo abierto que abarca demasiado y hace poco.", "nota": 8 },
+
+
+    { "nombre": "Fallout 3", "comentario": "El yermo cobra vida. Pura exploración y decadencia. Muy verde.", "nota": 7 },
+    { "nombre": "Fallout: New Vegas", "comentario": "Decisiones, caos y humanidad. El Fallout más real.", "nota": 9 },
+    { "nombre": "Far Cry 4", "comentario": "Montañas, caos y decisiones difíciles. Vibrante y salvaje.", "nota": 9 },
+    { "nombre": "Far Cry 6", "comentario": "Revolución, acción y personajes memorables. Muy entretenido.", "nota": 8 },
+    { "nombre": "Forager", "comentario": "Relajante y adictivo, ideal para perder la noción del tiempo.", "nota": 8 },
+
+
+    { "nombre": "God of War", "comentario": "Brutalidad en estado puro.", "nota": 8 },
+    { "nombre": "God of War: Chains of Olympus", "comentario": "Brutalidad en estado puro, ahora tamaño bolsillo.", "nota": 8 },
+    { "nombre": "God of War: Ghost of Sparta", "comentario": "Secuela buena.", "nota": 8 },
+    { "nombre": "God of War 2018", "comentario": "Un Kratos más adulto, menos acción más historia.", "nota": 7 },
+
+
+    { "nombre": "Grand Theft Auto: Chinatown Wars", "comentario": "Una joya portátil con más personalidad que muchos juegos grandes.", "nota": 9 },
+    { "nombre": "Grand Theft Auto: Liberty City Stories", "comentario": "Compacto y con el alma del GTA clásico.", "nota": 10 },
+    { "nombre": "Grand Theft Auto: San Andreas", "comentario": "Libertad, locura y nostalgia. Una era dorada del sandbox.", "nota": 9 },
+    { "nombre": "Grand Theft Auto: Vice City", "comentario": "Estilo, música y actitud. El juego que definió una época.", "nota": 10 },
+    { "nombre": "Grand Theft Auto: Vice City Stories", "comentario": "Expande el mito con una historia sólida y buen ritmo.", "nota": 9 },
+    { "nombre": "Grand Theft Auto V", "comentario": "Una sátira jugable, viva y con personalidad.", "nota": 9 },
+
+
+    { "nombre": "Hades", "comentario": "El combate perfecto, con alma y ritmo.", "nota": 9 },
+
+
+    { "nombre": "Journey", "comentario": "Minimalista, emocional y eterno.", "nota": 9 },
+
+
+    { "nombre": "Lies of P", "comentario": "Pinocho desde una perspectiva más agresiva.", "nota": 9 },
+
+
+    { "nombre": "Marvels Spider-Man", "comentario": "El trepamuros en su mejor versión, acción y ciudad vibrante.", "nota": 9 },
+    { "nombre": "Marvels Spider-Man: Miles Morales", "comentario": "Emocionante secuela, mejora narrativa y combate fluido.", "nota": 9 },
+    { "nombre": "Medal of Honor: Frontline", "comentario": "Clásico shooter de la Segunda Guerra Mundial. Misiones cinematográficas y acción intensa.", "nota": 10 },
+    { "nombre": "Medal of Honor: Rising Sun", "comentario": "La acción se traslada al Pacífico. Buen ritmo y variedad de entornos.", "nota": 9 },
+    { "nombre": "Medal of Honor: European Assault", "comentario": "Campaña europea con más libertad táctica y momentos épicos.", "nota": 9 },
+    { "nombre": "Medal of Honor: Vanguard", "comentario": "Intenta innovar, pero menos memorable que sus predecesores.", "nota": 6 },
+    { "nombre": "Metal Gear Solid", "comentario": "Obra maestra del sigilo. Donde la narrativa brilla.", "nota": 10 },
+    { "nombre": "Metal Gear Solid: Peace Walker", "comentario": "Sigilo y narrativa de forma portátil.", "nota": 8 },
+    { "nombre": "Metal Gear Solid 2: Sons of Liberty", "comentario": "Una obra que casi está a la altura de su anterior título.", "nota": 8 },
+    { "nombre": "Metal Gear Solid 3: Snake Eater", "comentario": "Supervivencia, emoción y una historia que se siente humana.", "nota": 9 },
+    { "nombre": "Metal Gear Solid 4: Guns of the Patriots", "comentario": "Una despedida cinematográfica que emociona hasta el final.", "nota": 9 },
+    { "nombre": "Metal Gear Solid V: The Phantom Pain", "comentario": "Raro, buenos personajes e historia pero pésima dirección.", "nota": 8 },
+    { "nombre": "Metro 2033", "comentario": "Oscuro, inmersivo y con alma.", "nota": 9 },
+    { "nombre": "Metro Exodus", "comentario": "Más pesado, más pulido, precioso.", "nota": 8 },
+    { "nombre": "Metro: Last Light", "comentario": "Más acción, menos supervivencia, esencia Metro.", "nota": 8 },
+
+
+    { "nombre": "Ratchet & Clank ps4", "comentario": "Un reinicio visualmente impecable, aunque menos carismático que el original.", "nota": 9 },
+    { "nombre": "Ratchet & Clank: Up Your Arsenal", "comentario": "Diversión pura, humor y ritmo perfecto. El más completo de la saga clásica.", "nota": 10 },
+    { "nombre": "Ratchet & Clank: Size Matters", "comentario": "Pequeño en escala, grande en esencia. Un digno portátil.", "nota": 10 },
+    { "nombre": "Ratchet & Clank: Agente Secreto Clank", "comentario": "Simpático spin-off, brilla más por encanto que por su gameplay.", "nota": 7 },
+    { "nombre": "Ratchet & Clank (2002)", "comentario": "Donde empezó todo. Plataformas, acción y carisma a raudales.", "nota": 8 },
+
+
+    { "nombre": "Silent Hill 2 (2001)", "comentario": "Lloras de miedo, o lloras por la historia, magnífico.", "nota": 10 },
+    { "nombre": "Silent Hill: Shattered Memories", "comentario": "Una reinterpretación emocional y psicológica del original. Más mente que monstruos.", "nota": 8 },
+
+
+    { "nombre": "The Binding of Isaac", "comentario": "Caótico, grotesco y brillante. El roguelike definitivo.", "nota": 10 },
+    { "nombre": "The Last of Us", "comentario": "Jugabilidad e historias impecables.", "nota": 9 },
+    { "nombre": "The Last of Us Part II", "comentario": "Una secuela valiente que perfecciona aún más la jugabilidad.", "nota": 9 },
+
+
+    { "nombre": "XIII", "comentario": "Un cómic hecho videojuego. Estilo visual inconfundible y una historia de conspiraciones que atrapa.", "nota": 8 },
+    { "nombre": "XIII Remake", "comentario": "Intentó revivir el clásico... pero se olvidó del alma que lo hacía único.", "nota": 2 }
+]
