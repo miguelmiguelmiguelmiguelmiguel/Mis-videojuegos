@@ -4,6 +4,10 @@
 const apiKey = "5f293e60061a4ddda10338c50c1d61e6";
 const contenedor = document.getElementById("juegos-container");
 const inputBusqueda = document.getElementById("searchInput");
+const paginacion = document.getElementById("paginacion"); // div para los botones
+const tamañoPagina = 24;
+let paginaActual = 1;
+let juegosTotales = [];
 
 // ==============================
 // FUNCIÓN: MOSTRAR JUEGOS
@@ -11,7 +15,12 @@ const inputBusqueda = document.getElementById("searchInput");
 async function mostrarJuegos(lista) {
   contenedor.innerHTML = ""; // limpiar el contenedor
 
-  for (const juego of lista) {
+  // calcular slice de paginación
+  const inicio = (paginaActual - 1) * tamañoPagina;
+  const fin = paginaActual * tamañoPagina;
+  const juegosMostrados = lista.slice(inicio, fin);
+
+  for (const juego of juegosMostrados) {
     try {
       const res = await fetch(
         `https://api.rawg.io/api/games?key=${apiKey}&search=${encodeURIComponent(juego.nombre)}`
@@ -40,6 +49,41 @@ async function mostrarJuegos(lista) {
       console.error("Error al cargar el juego:", juego.nombre, error);
     }
   }
+
+  actualizarPaginacion(lista.length);
+}
+
+// ==============================
+// FUNCIÓN: ACTUALIZAR PAGINACIÓN
+// ==============================
+function actualizarPaginacion(totalJuegos) {
+  paginacion.innerHTML = "";
+
+  const totalPaginas = Math.ceil(totalJuegos / tamañoPagina);
+
+  if (paginaActual > 1) {
+    const btnPrev = document.createElement("button");
+    btnPrev.textContent = "← Anterior";
+    btnPrev.onclick = () => {
+      paginaActual--;
+      mostrarJuegos(juegosTotales);
+    };
+    paginacion.appendChild(btnPrev);
+  }
+
+  if (paginaActual < totalPaginas) {
+    const btnNext = document.createElement("button");
+    btnNext.textContent = "Siguiente →";
+    btnNext.onclick = () => {
+      paginaActual++;
+      mostrarJuegos(juegosTotales);
+    };
+    paginacion.appendChild(btnNext);
+  }
+
+  const infoPagina = document.createElement("span");
+  infoPagina.textContent = ` Página ${paginaActual} de ${totalPaginas} `;
+  paginacion.appendChild(infoPagina);
 }
 
 // ==============================
@@ -54,13 +98,15 @@ async function cargarJuegos() {
       if (juego.id === undefined) juego.id = index + 1;
     });
 
-    mostrarJuegos(misJuegos);
+    juegosTotales = misJuegos; // guardamos todos los juegos
+    mostrarJuegos(juegosTotales);
 
     inputBusqueda.addEventListener("input", (e) => {
       const valor = e.target.value.toLowerCase();
-      const filtrados = misJuegos.filter((j) =>
+      const filtrados = juegosTotales.filter((j) =>
         j.nombre.toLowerCase().includes(valor)
       );
+      paginaActual = 1; // resetear página al filtrar
       mostrarJuegos(filtrados);
     });
   } catch (error) {

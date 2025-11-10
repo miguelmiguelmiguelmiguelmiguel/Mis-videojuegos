@@ -23,6 +23,62 @@ header h1 {
   color: #ccc;
   opacity: 0.9;
 }
+/* BÚSQUEDA */
+#busqueda-container {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+#searchInput {
+  width: 250px;
+  max-width: 90%;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  background: #2a2a2a;
+  color: #f5f5f5;
+  box-shadow: 0 2px 8px #0005;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+#searchInput:focus {
+  box-shadow: 0 2px 12px #00ffff66;
+  transform: scale(1.02);
+}
+
+/* PAGINACIÓN */
+#paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0 3rem;
+  flex-wrap: wrap;
+}
+
+#paginacion button {
+  background: #0ff;
+  color: #111;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#paginacion button:hover {
+  background: #00cccc;
+  transform: translateY(-2px);
+}
+
+#paginacion span {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
 /* JUEGOS */
 #juegos-container {
   display: grid;
