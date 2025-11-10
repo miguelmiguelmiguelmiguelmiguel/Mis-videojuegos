@@ -1,6 +1,9 @@
 [
+    { "nombre": "AdVenture Capitalist", "comentario": "Simulación de acumulación sin complicaciones. Adictivo para los que aman ver números crecer.", "nota": 8 },
+    { "nombre": "Among Us", "comentario": "Sospechas, traición y risas. Simple, social y sorprendentemente adictivo.", "nota": 9 },
     { "nombre": "Apex Legends", "comentario": "Velocidad, precisión y carisma. Un battle royale con identidad propia y ritmo impecable.", "nota": 9 },
     { "nombre": "Astroneer", "comentario": "Exploración espacial relajante y creativa. Esculpe planetas, construye bases y disfruta del cosmos a tu ritmo.","nota": 8 },
+    { "nombre": "A Way Out", "comentario": "Cooperativo al límite. Historia intensa y momentos memorables.", "nota": 9 },
 
 
     { "nombre": "Balatro", "comentario": "El póker convertido en una droga roguelike. Ingenioso, hipnótico y peligrosamente adictivo.", "nota": 10 },
@@ -8,11 +11,19 @@
     { "nombre": "Battlefield 4", "comentario": "Acción moderna con destrucción y ritmo frenético. Muy sólido.", "nota": 10 },
     { "nombre": "Battlefield V", "comentario": "Bonito, pero sin alma. Se siente algo perdido.", "nota": 6 },
     { "nombre": "Battlefield 2042", "comentario": "Ambicioso, pero mal ejecutado. Potencial desaprovechado.", "nota": 5 },
+    { "nombre": "Beyond: Two Souls", "comentario": "Drama interactivo con actuación sobresaliente. Historia emotiva, aunque algo irregular en ritmo.", "nota": 8 },
     { "nombre": "Bioshock Infinite", "comentario": "Belleza y crueldad mezcladas con poesía.", "nota": 8 },
+    { "nombre": "Black", "comentario": "Un festival de pólvora y destrucción. Pionero en hacer que disparar se sintiera glorioso.", "nota": 8 },
     { "nombre": "Blasphemous", "comentario": "Pixel art y acción brutal con un lore oscuro y perturbador.", "nota": 9 },
     { "nombre": "Bloodborne", "comentario": "Elegante y agresivo. Un festín para los masoquistas del alma.", "nota": 9 },
+    { "nombre": "Bomberman", "comentario": "Clásico de explosiones y estrategia sencilla. Ideal para partidas rápidas y caóticas con amigos.", "nota": 8 },
+    { "nombre": "Borderlands", "comentario": "Caos y humor en un mundo postapocalíptico. Loot y disparos sin parar.", "nota": 7 },
+    { "nombre": "Borderlands 3", "comentario": "Más grande, más loco y más armas. Mantiene el humor y la acción a tope.", "nota": 6 },
+    { "nombre": "Brawlhalla", "comentario": "Lucha plataforma divertida y accesible. Muchos personajes y partidas rápidas garantizadas.", "nota": 7 },
     { "nombre": "Brotato", "comentario": "Caos controlado y satisfacción inmediata. Un festival de mejoras y disparos sin descanso.", "nota": 10 },
+    { "nombre": "Brothers: A Tale of Two Sons", "comentario": "Emotivo y creativo. Controlar a dos hermanos simultáneamente es puro arte narrativo.", "nota": 8 },
     { "nombre": "Brothers in Arms: Road to Hill 30", "comentario": "Una experiencia táctica en la Segunda Guerra Mundial. Combina estrategia, acción y camaradería de escuadrón.", "nota": 9 },
+    { "nombre": "Bulletstorm apocalypse full clip", "comentario": "Exceso de acción y estilo. Disparos creativos que premian la imaginación y la brutalidad.", "nota": 8 },
 
 
     { "nombre": "Call of Duty: Advanced Warfare", "comentario": "Verticalidad, ritmo y exoesqueletos. Innovador, pero irregular.", "nota": 7 },
@@ -21,36 +32,48 @@
     { "nombre": "Call of Duty: Black Ops III", "comentario": "Demasiado futurista, pero divertido en lo jugable.", "nota": 6 },
     { "nombre": "Call of Duty: Black Ops 4", "comentario": "Sin campaña, pero con un multijugador ágil y entretenido.", "nota": 7 },
     { "nombre": "Call of Duty: Black Ops 6", "comentario": "Promete regresar a sus raíces con fuerza.", "nota": 8 },
+    { "nombre": "Call of Duty: Cold War", "comentario": "Espías, conspiraciones y nostalgia ochentera. Muy correcto.", "nota": 8 },
     { "nombre": "Call of Duty: Ghosts", "comentario": "Olvidable, pero con buenas ideas desaprovechadas.", "nota": 8 },
     { "nombre": "Call of Duty 4: Modern Warfare", "comentario": "Gráficos brutales y un realismo intenso. Campaña excelente.", "nota": 9 },
     { "nombre": "Call of Duty: Modern Warfare 3", "comentario": "Explosivo, épico y directo. Un cierre a la altura. Multijugador inmejorable.", "nota": 10 },
-    { "nombre": "Call of Duty: WWII", "comentario": "Regreso a lo clásico con mucha fuerza y respeto histórico.", "nota": 8 },
-    { "nombre": "Call of Duty: Cold War", "comentario": "Espías, conspiraciones y nostalgia ochentera. Muy correcto.", "nota": 8 },
     { "nombre": "Call of Duty: Warzone", "comentario": "Intenso, fluido y adictivo. Supo definir el ritmo del battle royale moderno.", "nota": 7 },
+    { "nombre": "Call of Duty: World at War", "comentario": "Violento, oscuro y potente. El último gran paso del COD clásico antes del salto moderno.", "nota": 8 },
+    { "nombre": "Call of Duty: World at War Final Fronts", "comentario": "Versión recortada pero con alma. Aún logra transmitir la crudeza del frente del Pacífico.", "nota": 9 },
+    { "nombre": "Call of Duty: WWII", "comentario": "Regreso a lo clásico con mucha fuerza y respeto histórico.", "nota": 8 },    
     { "nombre": "Celeste", "comentario": "Una montaña que escalar por dentro y por fuera. Plataformas que escalan tu corazón.", "nota": 9 },
+    { "nombre": "Children of Morta", "comentario": "Rogue-lite emocional. Historia y acción se mezclan con un estilo pixel art impresionante.", "nota": 7 },
+    { "nombre": "Clicker Heroes", "comentario": "Más números y progresión infinita. Adictivo para amantes del clic sin sentido.", "nota": 7 },
+    { "nombre": "Cookie Clicker", "comentario": "Clásico de la procrastinación y la satisfacción incremental. Simple pero hipnótico.", "nota": 8 },
     { "nombre": "Coffee Talk", "comentario": "Conversaciones, calma y humanidad pixelada. Una experiencia cálida y reflexiva.", "nota": 9 },
     { "nombre": "Coffee Talk Episode 2: Hibiscus & Butterfly", "comentario": "Más profundo y emocional. Amplía su mundo con nuevas voces y la misma serenidad.", "nota": 9 },
     { "nombre": "Control", "comentario": "Ciencia ficción elegante y terrorífica. Buena historia.", "nota": 9 },
+    { "nombre": "Cuphead", "comentario": "Animación antigüa con dificultad infernal. Cada jefe es una obra de arte y difícil.", "nota": 8 },
     { "nombre": "Cyberpunk 2077", "comentario": "Caótico, hermoso y lleno de potencial humano.", "nota": 8 },
 
 
     { "nombre": "Dark Souls", "comentario": "Una lección de diseño y paciencia. Duro, pero justo.", "nota": 7 },
     { "nombre": "Dark Souls II", "comentario": "Distinto, pero con identidad propia. Su oscuridad es más melancólica.", "nota": 8 },
     { "nombre": "Dark Souls III", "comentario": "La culminación del sufrimiento. Todo lo aprendido se siente aquí.", "nota": 9 },
+    { "nombre": "Days Gone", "comentario": "Apocalipsis zombi con mundo abierto. Historia decente y acción entretenida, aunque algo repetitiva.", "nota": 9 },
+    { "nombre": "DayZ", "comentario": "Survival hardcore y tensión constante. Cada encuentro con otros jugadores es impredecible y aterrador.", "nota": 8 },
     { "nombre": "Dead Cells", "comentario": "Rápido, desafiante y con una fluidez impecable. Cada muerte enseña algo nuevo.", "nota": 8 },
     { "nombre": "Dead Island", "comentario": "Zombis, supervivencia y caos tropical. Una experiencia intensa y sangrienta.", "nota": 9 },
     { "nombre": "Dead Island 2", "comentario": "Más grande, más divertido y con un enfoque aún más caótico en la supervivencia zombi.", "nota": 8 },
+    { "nombre": "Dead Space", "comentario": "Terror y ciencia ficción en estado puro. Cada pasillo es tensión, cada enemigo, un susto calculado.", "nota": 9 },
     { "nombre": "Death Stranding", "comentario": "El arte de caminar con propósito. Extraño, bello, único. Kojimada.", "nota": 9 },
+    { "nombre": "Detroit: Become Human", "comentario": "Elecciones, moralidad y futuro distópico. Ambicioso y absorbente, con narrativa muy pulida.", "nota": 7 },
     { "nombre": "Deus Ex: Human Revolution", "comentario": "Un regreso brillante a la saga, combinando sigilo, acción y decisiones impactantes.", "nota": 9 },
     { "nombre": "Deus Ex: Mankind Divided", "comentario": "Secuela que amplía la narrativa y el mundo, aunque con algunos altibajos en ritmo.", "nota": 8 },
     { "nombre": "Dishonored", "comentario": "Libertad, sigilo y venganza. Un diseño ejemplar.", "nota": 9 },
-    { "nombre": "Doom", "comentario": "El clásico que definió un género. Brutal, rápido y con una identidad inconfundible.", "nota": 9 },
+    { "nombre": "Dishonored 2", "comentario": "Elegancia y venganza entre sombras. Cada nivel es un puzle letal de libertad absoluta.", "nota": 8 },
+    { "nombre": "Doom 1993", "comentario": "El clásico que definió un género. Brutal, rápido y con una identidad inconfundible.", "nota": 9 },
     { "nombre": "Doom (2016)", "comentario": "Renacimiento del frenesí. Combate visceral, ritmo imparable y pura catarsis demoníaca.", "nota": 8 },
     { "nombre": "Doom Eternal", "comentario": "Más vertical, más técnico, más intenso. Una sinfonía de destrucción perfectamente orquestada.", "nota": 9 },
     { "nombre": "Dying Light", "comentario": "Zombis, parkour y tensión constante. La ciudad es un terreno de juego y de muerte.", "nota": 8 },
 
 
-    { "nombre": "Elden Ring", "comentario": "Un mundo abierto que abarca demasiado y hace poco.", "nota": 8 },
+    { "nombre": "Elden Ring", "comentario": "Un mundo abierto que abarca demasiado y hace poco.", "nota": 7 },
+    { "nombre": "Enter the Gungeon", "comentario": "Caos balístico y humor absurdo. Una bala perdida que siempre da en el blanco.", "nota": 8 },
 
 
     { "nombre": "Fallout 3", "comentario": "El yermo cobra vida. Pura exploración y decadencia. Muy verde.", "nota": 7 },
@@ -66,8 +89,11 @@
     { "nombre": "FIFA 22", "comentario": "Jugabilidad pulida y ritmo más pausado. La saga ya mostraba signos de desgaste.", "nota": 7 },
     { "nombre": "FIFA 24 (EA Sports FC 24)", "comentario": "Nuevo nombre, mismas bases. Detalles técnicos excelentes, pero sin alma nueva.", "nota": 7 },
     { "nombre": "Forager", "comentario": "Relajante y adictivo, ideal para perder la noción del tiempo.", "nota": 8 },
+    { "nombre": "Fortnite", "comentario": "De juego a fenómeno cultural. Innovador, cambiante y descaradamente divertido.", "nota": 9 },
+    { "nombre": "Fractured Minds", "comentario": "Experiencia introspectiva y educativa. Conmovedora y corta, enfocada en concienciar sobre la salud mental.", "nota": 8 },
 
 
+    { "nombre": "Gartic Phone", "comentario": "Diversión caótica y creatividad desatada. Risadas aseguradas en grupo.", "nota": 9 },
     { "nombre": "God of War", "comentario": "Brutalidad en estado puro.", "nota": 8 },
     { "nombre": "God of War: Chains of Olympus", "comentario": "Brutalidad en estado puro, ahora tamaño bolsillo.", "nota": 8 },
     { "nombre": "God of War: Ghost of Sparta", "comentario": "Secuela buena.", "nota": 8 },
@@ -84,14 +110,34 @@
 
 
     { "nombre": "Hades", "comentario": "El combate perfecto, con alma y ritmo.", "nota": 9 },
+    { "nombre": "Heavy Rain", "comentario": "Thriller psicológico intenso. Suspense constante y decisiones que pesan.", "nota": 9 },
+    { "nombre": "Hitman: Absolution", "comentario": "Agente 47 con más historia y cinemática. Algunos cambios polémicos, pero sigue siendo sigilo de élite.", "nota": 8 },
+    { "nombre": "Hitman 2", "comentario": "Sigilo refinado y mundos abiertos. Libertad total para eliminar con estilo y creatividad.", "nota": 8 },
+    { "nombre": "Hollow Knight", "comentario": "Metroidvania oscuro y desafiante. Cada rincón es una obra de arte y descubrimiento.", "nota": 7 },
+    { "nombre": "Horizon Zero Dawn", "comentario": "Mundo postapocalíptico precioso y dinámico. Historia, combate y exploración combinados a la perfección.", "nota": 9 },
+    { "nombre": "Hotline Miami", "comentario": "Violencia rápida, estética retro y música endiablada. Cada nivel es un desafío frenético.", "nota": 9 },
+    { "nombre": "Hotline Miami 2", "comentario": "Más brutal y narrativamente arriesgado. Divisivo, pero un espectáculo de acción pura.", "nota": 8 },
+    { "nombre": "Hyper Scape", "comentario": "Battle royale futurista con verticalidad y ritmo acelerado. Innovador, pero no logró consolidarse.", "nota": 8 },
+
+
+    { "nombre": "Island Saver", "comentario": "Juego educativo y entretenido. Enseña finanzas básicas de manera divertida y accesible para todos.", "nota": 8 },
+    { "nombre": "It Takes Two", "comentario": "Cooperativo impecable y lleno de imaginación. Cada nivel sorprende y entretiene.", "nota": 10 },
 
 
     { "nombre": "Journey", "comentario": "Minimalista, emocional y eterno.", "nota": 9 },
+    { "nombre": "Just Cause 4", "comentario": "Caos explosivo y libertad total. Más grande que nunca, aunque con algunas físicas cuestionables.", "nota": 7 },
 
 
+    { "nombre": "L.A. Noire", "comentario": "Misterio y cine negro interactivo. Investigaciones tensas y una atmósfera impecable.", "nota": 8 },
+    { "nombre": "Life is Strange", "comentario": "Drama adolescente con viajes en el tiempo. Historia emotiva y decisiones que realmente importan.", "nota": 9 },
     { "nombre": "Lies of P", "comentario": "Pinocho desde una perspectiva más agresiva.", "nota": 9 },
+    { "nombre": "Los Sims", "comentario": "El inicio de todo. Una caja de arena social que definió una generación.", "nota": 9 },
+    { "nombre": "Los Sims Mascotas", "comentario": "Más caos y ternura en el vecindario. Los animales le dieron vida al simulador.", "nota": 8 },
+    { "nombre": "Los Sims Náufragos", "comentario": "Una versión salvaje y original. Sobrevivir nunca fue tan divertido ni tan absurdo.", "nota": 9 },
+    { "nombre": "Los Sims 4", "comentario": "Creatividad sin límites, aunque con demasiados DLCs. Una vida paralela siempre lista para el caos.", "nota": 9 },
 
 
+    { "nombre": "Man of Medan", "comentario": "Horror cooperativo con momentos tensos. Entretenido, aunque menos impactante que sus predecesores.", "nota": 7 },
     { "nombre": "Marvels Spider-Man", "comentario": "El trepamuros en su mejor versión, acción y ciudad vibrante.", "nota": 9 },
     { "nombre": "Marvels Spider-Man: Miles Morales", "comentario": "Emocionante secuela, mejora narrativa y combate fluido.", "nota": 9 },
     { "nombre": "Marvel's Guardians of the Galaxy", "comentario": "Narrativa brillante y personajes con alma. Una sorpresa que equilibra humor y emoción.", "nota": 9 },
@@ -108,40 +154,86 @@
     { "nombre": "Metro 2033", "comentario": "Oscuro, inmersivo y con alma.", "nota": 9 },
     { "nombre": "Metro Exodus", "comentario": "Más pesado, más pulido, precioso.", "nota": 8 },
     { "nombre": "Metro: Last Light", "comentario": "Más acción, menos supervivencia, esencia Metro.", "nota": 8 },
+    { "nombre": "Middle-earth: Shadow of War", "comentario": "Estrategia y acción en la Tierra Media. Sistema Nemesis mejorado y épico.", "nota": 7 },
     { "nombre": "Minecraft", "comentario": "Creatividad infinita. Un mundo donde todo es posible y cada bloque cuenta una historia.", "nota": 10 },
+    { "nombre": "Minecraft Dungeons", "comentario": "Aventura cooperativa en el universo Minecraft. Divertido, aunque menos profundo que otros dungeon crawlers.", "nota": 8 },
     { "nombre": "Minit", "comentario": "Una aventura ingeniosa con límite de tiempo. Minimalismo con alma y mucho corazón.", "nota": 8 },
+    { "nombre": "Mirror's Edge", "comentario": "Parkour y estética minimalista. Innovador en movimiento y narrativa visual.", "nota": 9 },
+    { "nombre": "Moonlighter", "comentario": "Equilibrio perfecto entre tienda y mazmorra. Gestionar y saquear nunca fue tan adictivo.", "nota": 8 },
+    { "nombre": "MultiVersus", "comentario": "Crossover de personajes icónicos con combate ágil. Entretenido y competitivo.", "nota": 8 },
+    { "nombre": "My Friend Pedro", "comentario": "Balas, estilo y coreografía extrema. Locura pura con mucho humor negro.", "nota": 8 },
 
 
+    { "nombre": "No Thing", "comentario": "Carreras minimalistas y frenéticas. Simple en apariencia, pero exige reflejos y precisión.", "nota": 8 },
     { "nombre": "Nuclear Throne", "comentario": "Acción frenética y pura. Cada partida es una batalla por sobrevivir al caos radiactivo.", "nota": 9 },
 
 
+    { "nombre": "Overwatch 2", "comentario": "Brilla en lo jugable, pero perdió parte del alma que lo hizo especial. Aún así, adictivo y frenético.", "nota": 9 },
+
+
+    { "nombre": "Pang", "comentario": "Clásico arcade de globos y disparos. Simple, adictivo y perfecto para partidas rápidas.", "nota": 8 },
+    { "nombre": "Path of Exile", "comentario": "RPG de acción profundo y gratuito. Personalización, loot y complejidad para los fanáticos del género.", "nota": 9 },
+    { "nombre": "Pinturillo", "comentario": "Dibuja y adivina. Clásico casual que nunca falla para partidas rápidas y risas.", "nota": 7 },
     { "nombre": "Pro Evolution Soccer 5", "comentario": "El fútbol más puro de su era. Preciso, táctico y con alma de clásico.", "nota": 10 },
     { "nombre": "Pro Evolution Soccer 2013", "comentario": "La última gran entrega del Pro. Técnica, regate y nostalgia en estado puro.", "nota": 8 },
+    { "nombre": "PUBG", "comentario": "El padre del battle royale moderno. Tosco, sí, pero marcó una era.", "nota": 8 },
 
 
+    { "nombre": "Rage", "comentario": "Shooter postapocalíptico con gráficos sorprendentes para su época. Historia floja, acción sólida.", "nota": 8 },
     { "nombre": "Ratchet & Clank ps4", "comentario": "Un reinicio visualmente impecable, aunque menos carismático que el original.", "nota": 9 },
     { "nombre": "Ratchet & Clank: Up Your Arsenal", "comentario": "Diversión pura, humor y ritmo perfecto. El más completo de la saga clásica.", "nota": 10 },
     { "nombre": "Ratchet & Clank: Size Matters", "comentario": "Pequeño en escala, grande en esencia. Un digno portátil.", "nota": 10 },
     { "nombre": "Ratchet & Clank: Agente Secreto Clank", "comentario": "Simpático spin-off, brilla más por encanto que por su gameplay.", "nota": 7 },
     { "nombre": "Ratchet & Clank (2002)", "comentario": "Donde empezó todo. Plataformas, acción y carisma a raudales.", "nota": 8 },
+    { "nombre": "Red Faction", "comentario": "Revolución destructiva en Marte. Acciones explosivas y un sistema de físicas notable.", "nota": 9 },
+    { "nombre": "Red Faction: Armageddon", "comentario": "Más acción y caos, pero perdió parte del encanto del original. Aún divertido y explosivo.", "nota": 7 },
+    { "nombre": "Resident Evil", "comentario": "El inicio del terror moderno. Atmosférico, tenso y con una historia que atrapó a millones.", "nota": 9 },
+    { "nombre": "Resident Evil 2 Remake", "comentario": "Renovación impecable de un clásico. Gráficos modernos y jugabilidad pulida sin perder la esencia.", "nota": 8 },
+    { "nombre": "Resident Evil: Operation Raccoon City", "comentario": "Cooperativo y caótico, pero lejos de la gloria de la saga principal. Divertido para fans del caos zombi.", "nota": 8 },
     { "nombre": "Risk of Rain", "comentario": "Pixelart, tensión y progreso constante. Cada minuto aumenta el desafío y la recompensa.", "nota": 8 },
+    { "nombre": "Rocket Arena", "comentario": "Competitivo y colorido, ideal para partidas rápidas. Divertido, aunque algo limitado en contenido.", "nota": 7 },
+    { "nombre": "Rocket League", "comentario": "Fútbol con coches y física perfecta. Simple de entender, imposible de dominar.", "nota": 9 },
+    { "nombre": "Rogue Company", "comentario": "Shooter entretenido y competitivo, aunque algo genérico comparado con referentes del género.", "nota": 8 },
+
 
     { "nombre": "Saints Row: The Third", "comentario": "Caos, humor y libertad absoluta. Un sandbox que no se toma en serio y eso lo hace brillante.", "nota": 9 },
     { "nombre": "Saints Row (2022)", "comentario": "Intento de reinicio que pierde la esencia. Cumple, pero sin alma ni chispa.", "nota": 5 },
+    { "nombre": "Shapez.io", "comentario": "Rompecabezas logístico adictivo. Construir y optimizar fábricas nunca fue tan entretenido.", "nota": 9 },
     { "nombre": "Silent Hill 2 (2001)", "comentario": "Lloras de miedo, o lloras por la historia, magnífico.", "nota": 10 },
     { "nombre": "Silent Hill: Shattered Memories", "comentario": "Una reinterpretación emocional y psicológica del original. Más mente que monstruos.", "nota": 8 },
     { "nombre": "Slime Rancher", "comentario": "Tierno, relajante y con un encanto único. Una granja de babosas tan adorable como adictiva.", "nota": 8 },
+    { "nombre": "Splinter Cell", "comentario": "El inicio de una leyenda del sigilo. Innovador y desafiante.", "nota": 8 },
+    { "nombre": "Splinter Cell: Blacklist", "comentario": "Sigilo pulido y opciones tácticas. Combina acción y estrategia de manera elegante.", "nota": 8 },
+    { "nombre": "Splinter Cell: Chaos Theory", "comentario": "Sigilo en su máxima expresión. Niveles diseñados con maestría y una atmósfera tensa.", "nota": 9 },
+    { "nombre": "Splinter Cell: Pandora Tomorrow", "comentario": "Innovador en sigilo y tecnología. Una secuela sólida que expande la fórmula.", "nota": 8 },
     { "nombre": "SSX On Tour", "comentario": "Pura adrenalina sobre la nieve. Estilo rebelde, música brutal y descensos inolvidables.", "nota": 10 },
+    { "nombre": "Subnautica", "comentario": "Exploración submarina y supervivencia. Belleza, tensión y descubrimiento en cada inmersión.", "nota": 9 },
+    { "nombre": "Superliminal", "comentario": "Perspectiva y mente retorcida. Breve, pero deja huella en cómo ves el mundo.", "nota": 8 },
+    { "nombre": "Superhot", "comentario": "El tiempo solo se mueve si tú lo haces. Minimalismo y estrategia en estado puro.", "nota": 8 },
+    { "nombre": "Super Meat Boy", "comentario": "Plataformas precisas y despiadadas. Cada muerte duele, pero la satisfacción al pasar un nivel es enorme.", "nota": 9 },
+    { "nombre": "Super Meat Boy Forever", "comentario": "Secuela desafiante pero menos pulida. Mantiene la esencia, aunque con cambios discutibles.", "nota": 7 },
 
 
     { "nombre": "The Binding of Isaac", "comentario": "Caótico, grotesco y brillante. El roguelike definitivo.", "nota": 10 },
     { "nombre": "The Last of Us", "comentario": "Jugabilidad e historias impecables.", "nota": 9 },
     { "nombre": "The Last of Us Part II", "comentario": "Una secuela valiente que perfecciona aún más la jugabilidad.", "nota": 9 },
+    { "nombre": "The Pedestrian", "comentario": "Puzzles con estilo urbano. Creativo y relajante, como pasear dentro de una señal de tráfico.", "nota": 8 },
+    { "nombre": "The Stanley Parable", "comentario": "Metanarrativa brillante y humor absurdo. Cada decisión cuestiona lo que significa jugar.", "nota": 8 },
+    { "nombre": "The Witness", "comentario": "Un viaje de introspección y lógica pura. Bello, exigente y casi espiritual.", "nota": 9 },
+    { "nombre": "Titanfall 2", "comentario": "Innovador, fluido y con una campaña memorable. Combate en su máxima expresión.", "nota": 8 },
     { "nombre": "Tom Clancy's Rainbow Six Siege", "comentario": "Tensión pura y estrategia milimétrica. Cada partida es una partida de ajedrez con explosivos.", "nota": 7 },
     { "nombre": "Tom Clancy's The Division", "comentario": "Una Nueva York desolada y viva a la vez. Inmersivo, táctico y con una atmósfera impecable.", "nota": 8 },
 
 
+    { "nombre": "Until Dawn", "comentario": "Terror cinematográfico y decisiones que matan (literalmente). Suspense y giros sorpresa garantizados.", "nota": 8 },
+
+
     { "nombre": "Vampire Survivors", "comentario": "Minimalismo que roza la genialidad. Empieza simple, acaba siendo una tormenta de poder.", "nota": 10 },
+    { "nombre": "Viewfinder", "comentario": "Una joya de percepción y fotografía. Juega con la realidad como si fuera papel.", "nota": 7 },
+    { "nombre": "Vigor", "comentario": "Shooter postapocalíptico por episodios. Simple, entretenido y con enfoque en supervivencia y loot.", "nota": 8 },
+
+
+    { "nombre": "We Were Here", "comentario": "Cooperativo de puzzles y comunicación. Ingenioso y tenso.", "nota": 8 },
 
 
     { "nombre": "XIII", "comentario": "Un cómic hecho videojuego. Estilo visual inconfundible y una historia de conspiraciones que atrapa.", "nota": 8 },
