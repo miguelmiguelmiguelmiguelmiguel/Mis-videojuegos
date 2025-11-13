@@ -1,4 +1,8 @@
 [
+    { "nombre": "007: Desde Rusia con Amor", "comentario": "Sean Connery en su retorno digital. Acción clásica con encanto retro.", "nota": 8 },
+    { "nombre": "007: GoldenEye", "comentario": "Reimaginación de un clásico con control moderno y multijugador sólido, aunque no supera al original.", "nota": 7 },
+
+
     { "nombre": "AdVenture Capitalist", "comentario": "Simulación de acumulación sin complicaciones. Adictivo para los que aman ver números crecer.", "nota": 8 },
     { "nombre": "Among Us", "comentario": "Sospechas, traición y risas. Simple, social y sorprendentemente adictivo.", "nota": 9 },
     { "nombre": "Apex Legends", "comentario": "Velocidad, precisión y carisma. Un battle royale con identidad propia y ritmo impecable.", "nota": 9 },
@@ -34,7 +38,8 @@
     { "nombre": "Call of Duty: Black Ops 6", "comentario": "Promete regresar a sus raíces con fuerza.", "nota": 8 },
     { "nombre": "Call of Duty: Cold War", "comentario": "Espías, conspiraciones y nostalgia ochentera. Muy correcto.", "nota": 8 },
     { "nombre": "Call of Duty: Ghosts", "comentario": "Olvidable, pero con buenas ideas desaprovechadas.", "nota": 8 },
-    { "nombre": "Call of Duty 4: Modern Warfare", "comentario": "Gráficos brutales y un realismo intenso. Campaña excelente.", "nota": 9 },
+    { "nombre": "Call of Duty 4: Modern Warfare", "comentario": "Adaptación interesante del clásico en Wii, con controles únicos pero menos pulido que en consolas mayores.", "nota": 9 },
+    { "nombre": "Call of Duty: Modern Warfare remastered", "comentario": "El clásico renovado con gráficos impecables y sonido mejorado. Una experiencia imprescindible.", "nota": 8 },
     { "nombre": "Call of Duty: Modern Warfare 3", "comentario": "Explosivo, épico y directo. Un cierre a la altura. Multijugador inmejorable.", "nota": 10 },
     { "nombre": "Call of Duty: Warzone", "comentario": "Intenso, fluido y adictivo. Supo definir el ritmo del battle royale moderno.", "nota": 7 },
     { "nombre": "Call of Duty: World at War", "comentario": "Violento, oscuro y potente. El último gran paso del COD clásico antes del salto moderno.", "nota": 8 },
@@ -73,6 +78,7 @@
 
 
     { "nombre": "Elden Ring", "comentario": "Un mundo abierto que abarca demasiado y hace poco.", "nota": 7 },
+    { "nombre": "Emily is Away", "comentario": "Una carta nostálgica a la era MSN. Breve, pero emocionalmente demoledor.", "nota": 9 },
     { "nombre": "Enter the Gungeon", "comentario": "Caos balístico y humor absurdo. Una bala perdida que siempre da en el blanco.", "nota": 8 },
 
 
@@ -120,6 +126,7 @@
     { "nombre": "Hyper Scape", "comentario": "Battle royale futurista con verticalidad y ritmo acelerado. Innovador, pero no logró consolidarse.", "nota": 8 },
 
 
+    { "nombre": "Inazuma Eleven", "comentario": "Fútbol y RPG se fusionan en una aventura llena de carisma y espíritu de equipo.", "nota": 8 },
     { "nombre": "Island Saver", "comentario": "Juego educativo y entretenido. Enseña finanzas básicas de manera divertida y accesible para todos.", "nota": 8 },
     { "nombre": "It Takes Two", "comentario": "Cooperativo impecable y lleno de imaginación. Cada nivel sorprende y entretiene.", "nota": 10 },
 
@@ -128,9 +135,14 @@
     { "nombre": "Just Cause 4", "comentario": "Caos explosivo y libertad total. Más grande que nunca, aunque con algunas físicas cuestionables.", "nota": 7 },
 
 
+    { "nombre": "Killzone", "comentario": "FPS con atmósfera brutal y acción intensa. El halo killer de playstation", "nota": 8 },
+    { "nombre": "Killzone: Liberation", "comentario": "Versión PSP con perspectiva isométrica, mantiene la tensión y el universo de la saga.", "nota": 7 },
+
+
     { "nombre": "L.A. Noire", "comentario": "Misterio y cine negro interactivo. Investigaciones tensas y una atmósfera impecable.", "nota": 8 },
     { "nombre": "Life is Strange", "comentario": "Drama adolescente con viajes en el tiempo. Historia emotiva y decisiones que realmente importan.", "nota": 9 },
     { "nombre": "Lies of P", "comentario": "Pinocho desde una perspectiva más agresiva.", "nota": 9 },
+    { "nombre": "Locks Quest", "comentario": "Una joya táctica olvidada: mezcla de defensa de torres y narrativa emotiva.", "nota": 8 },
     { "nombre": "Los Sims", "comentario": "El inicio de todo. Una caja de arena social que definió una generación.", "nota": 9 },
     { "nombre": "Los Sims 2: pets", "comentario": "Más caos y ternura en el vecindario. Los animales le dieron vida al simulador.", "nota": 8 },
     { "nombre": "Los Sims 2: castaway", "comentario": "Una versión salvaje y original. Sobrevivir nunca fue tan divertido ni tan absurdo.", "nota": 9 },
@@ -138,8 +150,10 @@
 
 
     { "nombre": "Man of Medan", "comentario": "Horror cooperativo con momentos tensos. Entretenido, aunque menos impactante que sus predecesores.", "nota": 7 },
-    { "nombre": "Marvels Spider-Man", "comentario": "El trepamuros en su mejor versión, acción y ciudad vibrante.", "nota": 9 },
-    { "nombre": "Marvels Spider-Man: Miles Morales", "comentario": "Emocionante secuela, mejora narrativa y combate fluido.", "nota": 9 },
+    { "nombre": "Mario 64 DS", "comentario": "Un clásico reinventado con más personajes y secretos, aunque el control táctil no convenció a todos.", "nota": 9 },
+    { "nombre": "Mario Kart DS", "comentario": "Velocidad, nostalgia y puro vicio portátil. Uno de los mejores de la saga.", "nota": 10 },
+    { "nombre": "Marvels Spider-Man", "comentario": "El trepamuros en su mejor versión, acción y ciudad vibrante.", "nota": 10 },
+    { "nombre": "Marvels Spider-Man: Miles Morales", "comentario": "Emocionante secuela, mejora narrativa y combate fluido.", "nota": 8 },
     { "nombre": "Marvel's Guardians of the Galaxy", "comentario": "Narrativa brillante y personajes con alma. Una sorpresa que equilibra humor y emoción.", "nota": 9 },
     { "nombre": "Medal of Honor: Frontline", "comentario": "Clásico shooter de la Segunda Guerra Mundial. Misiones cinematográficas y acción intensa.", "nota": 10 },
     { "nombre": "Medal of Honor: Rising Sun", "comentario": "La acción se traslada al Pacífico. Buen ritmo y variedad de entornos.", "nota": 9 },
@@ -164,6 +178,8 @@
     { "nombre": "My Friend Pedro", "comentario": "Balas, estilo y coreografía extrema. Locura pura con mucho humor negro.", "nota": 8 },
 
 
+    { "nombre": "New Super Mario Bros.", "comentario": "El regreso triunfal del Mario clásico en 2D, simple pero tremendamente divertido.", "nota": 9 },
+    { "nombre": "Nintendogs", "comentario": "El fenómeno que convirtió a la DS en una guardería virtual. Tierno y adictivo.", "nota": 8 },
     { "nombre": "No Thing", "comentario": "Carreras minimalistas y frenéticas. Simple en apariencia, pero exige reflejos y precisión.", "nota": 8 },
     { "nombre": "Nuclear Throne", "comentario": "Acción frenética y pura. Cada partida es una batalla por sobrevivir al caos radiactivo.", "nota": 9 },
 
@@ -173,7 +189,16 @@
 
     { "nombre": "Pang", "comentario": "Clásico arcade de globos y disparos. Simple, adictivo y perfecto para partidas rápidas.", "nota": 8 },
     { "nombre": "Path of Exile", "comentario": "RPG de acción profundo y gratuito. Personalización, loot y complejidad para los fanáticos del género.", "nota": 9 },
-    { "nombre": "Pinturillo", "comentario": "Dibuja y adivina. Clásico casual que nunca falla para partidas rápidas y risas.", "nota": 7 },
+    { "nombre": "Pinturillo", "comentario": "Dibuja y adivina. Clásico casual que nunca falla para partidas rápidas y risas.", "nota": 8 },
+
+    { "nombre": "Pokémon yellow", "comentario": "La nostalgia pura. Pikachu siguiéndote fue magia en su momento.", "nota": 9 },
+    { "nombre": "Pokémon Blanco", "comentario": "La saga se reinventó con una historia más madura y un ritmo impecable.", "nota": 9 },
+    { "nombre": "Pokémon Diamond", "comentario": "Inicio de una generación elegante, aunque algo lenta en combates.", "nota": 8 },
+    { "nombre": "Pokémon Emerald", "comentario": "El punto más alto de Hoenn, con el Frente Batalla como joya final.", "nota": 10 },
+    { "nombre": "Pokémon moon", "comentario": "Un soplo de aire fresco con cambios valientes, aunque divisivos.", "nota": 8 },
+    { "nombre": "Pokémon Mystery Dungeon: Explorers of Darkness", "comentario": "Una historia emocional y sorprendentemente profunda. Inolvidable.", "nota": 10 },
+    { "nombre": "Pokémon Platinum", "comentario": "La versión definitiva de Sinnoh. Refinado, equilibrado y oscuro.", "nota": 10 },
+
     { "nombre": "Pro Evolution Soccer 5", "comentario": "El fútbol más puro de su era. Preciso, táctico y con alma de clásico.", "nota": 10 },
     { "nombre": "Pro Evolution Soccer 2013", "comentario": "La última gran entrega del Pro. Técnica, regate y nostalgia en estado puro.", "nota": 8 },
     { "nombre": "PUBG", "comentario": "El padre del battle royale moderno. Tosco, sí, pero marcó una era.", "nota": 8 },
@@ -213,9 +238,13 @@
     { "nombre": "Superhot", "comentario": "El tiempo solo se mueve si tú lo haces. Minimalismo y estrategia en estado puro.", "nota": 8 },
     { "nombre": "Super Meat Boy", "comentario": "Plataformas precisas y despiadadas. Cada muerte duele, pero la satisfacción al pasar un nivel es enorme.", "nota": 9 },
     { "nombre": "Super Meat Boy Forever", "comentario": "Secuela desafiante pero menos pulida. Mantiene la esencia, aunque con cambios discutibles.", "nota": 7 },
+    { "nombre": "Syphon Filter", "comentario": "Thriller de acción y sigilo sólido en PS1, con narrativa y espionaje intrigantes.", "nota": 7 },
+    { "nombre": "Syphon Filter: Dark Mirror", "comentario": "PSP mantiene la acción y sigilo, con buenos niveles y jugabilidad pulida.", "nota": 8 },
+    { "nombre": "Syphon Filter: Logan's Shadow", "comentario": "Mejora gráficos y mecánicas en PSP, aunque la historia es más convencional.", "nota": 7 },
 
 
     { "nombre": "The Binding of Isaac", "comentario": "Caótico, grotesco y brillante. El roguelike definitivo.", "nota": 10 },
+    { "nombre": "The Conduit", "comentario": "FPS ambicioso en Wii, con buen multijugador, aunque gráficamente limitado.", "nota": 7 },
     { "nombre": "The Last of Us", "comentario": "Jugabilidad e historias impecables.", "nota": 9 },
     { "nombre": "The Last of Us Part II", "comentario": "Una secuela valiente que perfecciona aún más la jugabilidad.", "nota": 9 },
     { "nombre": "The Pedestrian", "comentario": "Puzzles con estilo urbano. Creativo y relajante, como pasear dentro de una señal de tráfico.", "nota": 8 },
@@ -224,6 +253,7 @@
     { "nombre": "Titanfall 2", "comentario": "Innovador, fluido y con una campaña memorable. Combate en su máxima expresión.", "nota": 8 },
     { "nombre": "Tom Clancy's Rainbow Six Siege", "comentario": "Tensión pura y estrategia milimétrica. Cada partida es una partida de ajedrez con explosivos.", "nota": 7 },
     { "nombre": "Tom Clancy's The Division", "comentario": "Una Nueva York desolada y viva a la vez. Inmersivo, táctico y con una atmósfera impecable.", "nota": 8 },
+    { "nombre": "Tourist Trophy", "comentario": "Gran Turismo sobre dos ruedas: técnico, realista y sorprendentemente elegante.", "nota": 8 },
 
 
     { "nombre": "Until Dawn", "comentario": "Terror cinematográfico y decisiones que matan (literalmente). Suspense y giros sorpresa garantizados.", "nota": 8 },
@@ -238,5 +268,8 @@
 
 
     { "nombre": "XIII", "comentario": "Un cómic hecho videojuego. Estilo visual inconfundible y una historia de conspiraciones que atrapa.", "nota": 8 },
-    { "nombre": "XIII Remake", "comentario": "Intentó revivir el clásico... pero se olvidó del alma que lo hacía único.", "nota": 2 }
+    { "nombre": "XIII Remake", "comentario": "Intentó revivir el clásico... pero se olvidó del alma que lo hacía único.", "nota": 2 },
+
+
+    { "nombre": "Zubo", "comentario": "Un RPG musical infravalorado, con estilo y ritmo, pero poca profundidad.", "nota": 8 }
 ]

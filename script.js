@@ -5,7 +5,7 @@ const apiKey = "5f293e60061a4ddda10338c50c1d61e6";
 const contenedor = document.getElementById("juegos-container");
 const inputBusqueda = document.getElementById("searchInput");
 const paginacion = document.getElementById("paginacion"); // div para los botones
-const tamañoPagina = 24;
+const tamañoPagina = 48;
 let paginaActual = 1;
 let juegosTotales = [];
 
