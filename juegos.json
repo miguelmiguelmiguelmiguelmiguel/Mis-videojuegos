@@ -4,7 +4,7 @@
 
 
     { "nombre": "AdVenture Capitalist", "comentario": "Simulación de acumulación sin complicaciones. Adictivo para los que aman ver números crecer.", "nota": 8 },
-    {"nombre": "Akxolote", "comentario": "Aventura colorida y relajante. Encantador y creativo, aunque sencillo en mecánicas.", "nota": 8 },
+    {"nombre": "Ak-xolotl", "comentario": "Aventura colorida y relajante. Encantador y creativo, aunque sencillo en mecánicas.", "nota": 8 },
     { "nombre": "Among Us", "comentario": "Sospechas, traición y risas. Simple, social y sorprendentemente adictivo.", "nota": 9 },
     { "nombre": "Apex Legends", "comentario": "Velocidad, precisión y carisma. Un battle royale con identidad propia y ritmo impecable.", "nota": 9 },
     { "nombre": "Astroneer", "comentario": "Exploración espacial relajante y creativa. Esculpe planetas, construye bases y disfruta del cosmos a tu ritmo.","nota": 8 },
@@ -50,7 +50,6 @@
     { "nombre": "Call of Duty: World at War", "comentario": "Violento, oscuro y potente. El último gran paso del COD clásico antes del salto moderno.", "nota": 8 },
     { "nombre": "Call of Duty: World at War Final Fronts", "comentario": "Versión recortada pero con alma. Aún logra transmitir la crudeza del frente del Pacífico.", "nota": 9 },
     { "nombre": "Call of Duty: WWII", "comentario": "Regreso a lo clásico con mucha fuerza y respeto histórico.", "nota": 8 },
-    { "nombre": "Campus", "comentario": "Simulador de gestión universitaria. Entretenido y estratégico, ideal para planificar y optimizar.", "nota": 7 },
     { "nombre": "Celeste", "comentario": "Una montaña que escalar por dentro y por fuera. Plataformas que escalan tu corazón.", "nota": 9 },
     { "nombre": "Children of Morta", "comentario": "Rogue-lite emocional. Historia y acción se mezclan con un estilo pixel art impresionante.", "nota": 7 },
     { "nombre": "Clicker Heroes", "comentario": "Más números y progresión infinita. Adictivo para amantes del clic sin sentido.", "nota": 7 },
@@ -117,6 +116,7 @@
     { "nombre": "Fuser", "comentario": "Juego musical creativo. Mezclar canciones nunca fue tan divertido.", "nota": 7 },
 
 
+    { "nombre": "gang beast", "comentario": "Luchas caóticas y físicas hilarantes. Perfecto para partidas rápidas y risas aseguradas con amigos.", "nota": 9},
     { "nombre": "Gartic Phone", "comentario": "Diversión caótica y creatividad desatada. Risadas aseguradas en grupo.", "nota": 9 },
     { "nombre": "Generation Zero", "comentario": "Shooter cooperativo en mundo abierto. Combate táctico y atmósfera tensa.", "nota": 8 },
     { "nombre": "Get Even", "comentario": "Thriller psicológico con puzzles. Historia intrigante y atmósfera oscura.", "nota": 8 },
@@ -166,7 +166,7 @@
     { "nombre": "Knockout City", "comentario": "Dodgeball caótico y divertido. Perfecto para partidas rápidas y competitivas con amigos.", "nota": 8     },
 
 
-    { "nombre": "Laika", "comentario": "Aventura narrativa con estética única. Corto pero visualmente impactante.", "nota": 8 },
+    { "nombre": "Laika aged through blood", "comentario": "Aventura narrativa con estética única. Corto pero visualmente impactante.", "nota": 8 },
     { "nombre": "Layers of Fear", "comentario": "Horror psicológico artístico. Atmósfera opresiva y narrativa perturbadora.", "nota": 8 },
     { "nombre": "LEGO Batman", "comentario": "Aventura ligera y divertida. Humor y puzzles clásicos de LEGO.", "nota": 8 },
     { "nombre": "LEGO Star Wars", "comentario": "Humor, acción y nostalgia. Perfecto para todas las edades.", "nota": 7 },
@@ -234,8 +234,8 @@
     { "nombre": "Pinturillo", "comentario": "Dibuja y adivina. Clásico casual que nunca falla para partidas rápidas y risas.", "nota": 8 },
     { "nombre": "Plantas vs. Zombies", "comentario": "Estrategia y humor en dosis perfectas. Simple, adictivo y tremendamente entretenido.", "nota": 10 },
     { "nombre": "Plants vs. Zombies: Battle for Neighborville", "comentario": "Humor, estrategia y acción en tercera persona. Divertido, accesible y lleno de caos vegetal.", "nota": 8 },
-    { "nombre": "Potion Craft", "comentario": "Simulación de alquimia creativa. Relajante y adictivo.", "nota": 8 },
-    { "nombre": "Postal", "comentario": "Polémico y exagerado. Humor negro extremo y acción sin filtro.", "nota": 7 },
+    { "nombre": "Potion Craft: Alchemist Simulator", "comentario": "Simulación de alquimia creativa. Relajante y adictivo.", "nota": 8 },
+    { "nombre": "Postal redux", "comentario": "Polémico y exagerado. Humor negro extremo y acción sin filtro.", "nota": 7 },
     { "nombre": "Pokémon yellow", "comentario": "La nostalgia pura. Pikachu siguiéndote fue magia en su momento.", "nota": 9 },
     { "nombre": "Pokémon Blanco", "comentario": "La saga se reinventó con una historia más madura y un ritmo impecable.", "nota": 9 },
     { "nombre": "Pokémon Diamond", "comentario": "Inicio de una generación elegante, aunque algo lenta en combates.", "nota": 8 },
@@ -280,10 +280,11 @@
     { "nombre": "SSX On Tour", "comentario": "Pura adrenalina sobre la nieve. Estilo rebelde, música brutal y descensos inolvidables.", "nota": 10 },
     { "nombre": "Stalker: Clear Sky", "comentario": "Shooter de supervivencia postapocalíptico. Atmosférico y táctico.", "nota": 8 },
     { "nombre": "Starlight Adventures", "comentario": "Plataformas y puzzles ligeros. Entretenido pero simple.", "nota": 7 },
+    { "nombre": "Star Wars: Battlefront II (2017)", "comentario": "Reinicio con gráficos impresionantes. Controversias iniciales, pero buen juego en esencia.", "nota": 7 },
     { "nombre": "Star Wars: El Poder de la Fuerza", "comentario": "Acción y narrativa dentro del universo Star Wars. Entretenido y cinemático.", "nota": 8 },
-    { "nombre": "Star Wars: La Venganza de los Sith (PS2)", "comentario": "Aventura y acción basada en la película. Divertido aunque limitado por la consola.", "nota": 7 },
-    { "nombre": "Star Wars: La Venganza de los Sith (GBA)", "comentario": "Versión portátil simplificada. Correcta para el hardware, pero corta.", "nota": 6 },
-    { "nombre": "Star Wars: Battlefront II (2017)", "comentario": "Reinicio con gráficos impresionantes. Controversias iniciales, pero buen juego en esencia.", "nota": 8 },
+    { "nombre": "Star Wars: Episode III: Revenge of the Sith (PS2)", "comentario": "Aventura y acción basada en la película. Divertido aunque limitado por la consola.", "nota": 8 },
+    { "nombre": "Star Wars: Episode III: Revenge of the Sith (GBA)", "comentario": "Versión portátil simplificada. Correcta para el hardware, pero corta.", "nota": 8 },
+    { "nombre": "star wars: jedi fallen order", "comentario": "Aventura épica y combate fluido. Una joya para los fans de Star Wars y los juegos de acción.", "nota": 8 },
     { "nombre": "SteamWorld Dig", "comentario": "Plataformas y minería. Entretenido y con exploración satisfactoria.", "nota": 8 },
     { "nombre": "SteamWorld Dig 2", "comentario": "Mejora sobre el original. Exploración más profunda y combates refinados.", "nota": 9 },
     { "nombre": "Stray", "comentario": "Aventura felina en ciudad cyberpunk. Encantador, emotivo y atmosférico.", "nota": 9 },
@@ -320,6 +321,7 @@
     { "nombre": "Tom Clancy's Splinter Cell: Pandora Tomorrow", "comentario": "Innovador en sigilo y tecnología. Una secuela sólida que expande la fórmula.", "nota": 8 },
     { "nombre": "Tom Clancy's The Division", "comentario": "Una Nueva York desolada y viva a la vez. Inmersivo, táctico y con una atmósfera impecable.", "nota": 8 },
     { "nombre": "Tourist Trophy", "comentario": "Gran Turismo sobre dos ruedas: técnico, realista y sorprendentemente elegante.", "nota": 8 },
+    { "nombre": "Two Point campus", "comentario": "Simulador de gestión universitaria. Entretenido y estratégico, ideal para planificar y optimizar.", "nota": 7 },
     { "nombre": "Two Point Hospital", "comentario": "Simulación hospitalaria con humor. Estrategia y gestión muy entretenidas.", "nota": 8 },
     { "nombre": "Tunic", "comentario": "Aventura isométrica inspirada en Zelda. Misteriosa, desafiante y bellamente diseñada.", "nota": 9 },
     { "nombre": "Twisted Metal", "comentario": "Carreras de combate vehicular. Caótico, divertido y lleno de explosiones.", "nota": 8 },
@@ -343,7 +345,7 @@
     { "nombre": "WWE 2K16", "comentario": "Sólido y completo. Gran plantel y jugabilidad equilibrada.", "nota": 8 },
     { "nombre": "WWE 2K24", "comentario": "El regreso a la cima. Detallado, espectacular y con mecánicas muy pulidas.", "nota": 9 },
     { "nombre": "WWE Battlegrounds", "comentario": "Arcade exagerado y divertido. Ideal para partidas casuales, pero con poca profundidad.", "nota": 7 },
-    { "nombre": "WWE Jam", "comentario": "Frenético y con estilo desenfadado. Perfecto para quienes prefieren la acción rápida al realismo.", "nota": 8 },
+    { "nombre": "WWE all stars", "comentario": "Frenético y con estilo desenfadado. Perfecto para quienes prefieren la acción rápida al realismo.", "nota": 8 },
 
 
     { "nombre": "XIII", "comentario": "Un cómic hecho videojuego. Estilo visual inconfundible y una historia de conspiraciones que atrapa.", "nota": 8 },
