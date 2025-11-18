@@ -1,17 +1,15 @@
 /* --- Variables y Reset --- */
 :root {
-    --bg-color: #0f0f13; /* Negro azulado muy oscuro */
+    --bg-color: #0f0f13; 
     --card-bg: #1e1e24;
-    --accent-color: #ff6b00; /* Naranja vibrante */
+    --accent-color: #ff6b00; 
     --text-main: #ffffff;
     --text-secondary: #a0a0a0;
     --radius: 12px;
     --font-main: 'Poppins', sans-serif;
 }
 
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
     font-family: var(--font-main);
@@ -46,9 +44,6 @@ header {
 header h1 {
     margin: 0;
     font-size: 1.5rem;
-    background: linear-gradient(90deg, #fff, #ccc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -73,12 +68,12 @@ header a.volver:hover {
     transform: translateX(-5px);
 }
 
-/* --- Contenedor Principal --- */
+/* --- Contenedor Principal y Animación --- */
 .container {
     max-width: 1000px;
     margin: 30px auto;
     padding: 0 20px;
-    animation: fadeInPage 0.6s ease-out;
+    animation: fadeInPage 0.6s ease-out forwards; /* Añadir forwards para mantener el estado final */
 }
 
 @keyframes fadeInPage {
@@ -92,36 +87,30 @@ header a.volver:hover {
     gap: 15px;
     padding: 20px 0;
     overflow-x: auto;
+    /* Simplificar la barra de desplazamiento */
     scrollbar-width: thin;
     scrollbar-color: var(--accent-color) #222;
     margin-bottom: 30px;
 }
 
-/* Scrollbar personalizado para Webkit (Chrome/Safari) */
-#imagenes-juego::-webkit-scrollbar {
-    height: 8px;
-}
-#imagenes-juego::-webkit-scrollbar-track {
-    background: #222;
-    border-radius: 4px;
-}
-#imagenes-juego::-webkit-scrollbar-thumb {
-    background-color: var(--accent-color);
-    border-radius: 4px;
-}
+/* Scrollbar personalizado Webkit (Mantenido porque es necesario) */
+#imagenes-juego::-webkit-scrollbar { height: 8px; }
+#imagenes-juego::-webkit-scrollbar-track { background: #222; border-radius: 4px; }
+#imagenes-juego::-webkit-scrollbar-thumb { background-color: var(--accent-color); border-radius: 4px; }
 
 #imagenes-juego img {
     cursor: pointer;
-    height: 180px; /* Altura fija, ancho auto */
+    height: 180px;
     width: auto;
+    flex-shrink: 0; /* Asegura que no se deformen en contenedores pequeños */
     border-radius: var(--radius);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all 0.3s ease; /* Simplificado el cubic-bezier para mantenerlo conciso */
     filter: brightness(0.8);
 }
 
 #imagenes-juego img:hover {
-    transform: scale(1.05) translateY(-5px);
+    transform: scale(1.05); /* Eliminado el translateY para consistencia */
     filter: brightness(1.1);
     box-shadow: 0 10px 25px rgba(255, 107, 0, 0.3);
 }
@@ -163,6 +152,7 @@ header a.volver:hover {
 }
 
 .info-grid {
+    /* Mantener el grid flexible */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
@@ -201,17 +191,18 @@ header a.volver:hover {
     line-height: 1.8;
 }
 
-/* --- Lightbox (Mejorado) --- */
+/* --- Lightbox --- */
 #lightbox {
     position: fixed;
-    inset: 0; /* top/left/right/bottom: 0 */
+    /* Simplificado: 'inset: 0' cubre top/left/right/bottom: 0 */
+    inset: 0; 
     background: rgba(0, 0, 0, 0.95);
     display: flex;
     justify-content: center;
     align-items: center;
     visibility: hidden;
     opacity: 0;
-    transition: all 0.3s ease;
+    transition: opacity 0.3s ease; /* Sólo transicionamos la opacidad */
     z-index: 2000;
     backdrop-filter: blur(5px);
 }
@@ -227,8 +218,7 @@ header a.volver:hover {
     border-radius: 8px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
     border: 2px solid #333;
-    transform: scale(0.9);
-    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: transform 0.3s ease; 
 }
 
 #lightbox.active img {
@@ -237,13 +227,8 @@ header a.volver:hover {
 
 /* --- Responsivo --- */
 @media (max-width: 600px) {
-    .header-content {
-        flex-direction: column;
-        gap: 10px;
-        align-items: flex-start;
-    }
-    
-    .info-header {
+    /* Simplificamos a un solo selector para el Header y el Info Header */
+    .header-content, .info-header {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;

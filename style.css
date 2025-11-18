@@ -1,164 +1,231 @@
-/* HEADER */
+/* RESET O ESTILOS BASE */
+body {
+    margin: 0;
+    background-color: #111;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* --- ENCABEZADO --- */
 header {
-  text-align: center;
-  padding: 3rem 1rem 2rem;
-  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
-  color: #f5f5f5;
-  border-bottom: 1px solid #333;
-  box-shadow: 0 2px 20px #0007;
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    background: linear-gradient(135deg, #111, #1e1e1e);
+    border-bottom: 1px solid #333;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
 }
 
 header h1 {
-  font-size: 2.3rem;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  margin-bottom: 0.8rem;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+    color: #0ff; /* Azul cian */
+    text-shadow: 0 0 8px #00ff66; /* Verde neón */
+    text-decoration: underline; /* Usar CSS para subrayar */
 }
 
 .subtitulo {
-  font-size: 1rem;
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.6;
-  color: #ccc;
-  opacity: 0.9;
-}
-/* BÚSQUEDA */
-#busqueda-container {
-  text-align: center;
-  margin: 1.5rem 0;
+    font-size: 1.05rem;
+    max-width: 720px;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: #ccc;
+    font-style: italic;
 }
 
+/* --- CONTROLES (BÚSQUEDA, ORDEN, FILTRO, BOTÓN) --- */
+#controles-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem; 
+    margin: 2rem 1rem;
+    flex-wrap: wrap; 
+}
+
+/* Estilos comunes para todos los elementos de control */
+#controles-container select, 
+#controles-container input[type="text"], 
+#controles-container button {
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 0.95rem;
+    background: #2a2a2a;
+    color: #f5f5f5;
+    box-shadow: 0 2px 8px #0005;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+/* Estilo específico para el campo de búsqueda */
 #searchInput {
-  width: 250px;
-  max-width: 90%;
-  padding: 0.5rem 0.8rem;
-  border-radius: 8px;
-  border: none;
-  outline: none;
-  font-size: 0.95rem;
-  background: #2a2a2a;
-  color: #f5f5f5;
-  box-shadow: 0 2px 8px #0005;
-  transition: box-shadow 0.3s ease, transform 0.2s ease;
+    width: 260px;
+    border: 1px solid #0ff;
+    max-width: 90%;
+    background: #222;
 }
 
 #searchInput:focus {
-  box-shadow: 0 2px 12px #00ffff66;
-  transform: scale(1.02);
+    box-shadow: 0 4px 20px #00ffff66;
+    transform: scale(1.03);
+    border-color: #00ffff;
 }
 
-/* PAGINACIÓN */
-#paginacion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin: 1.5rem 0 3rem;
-  flex-wrap: wrap;
+/* Estilo para Selects y Botón (interacciones) */
+#controles-container select:hover,
+#controles-container button:hover {
+    box-shadow: 0 2px 12px #00ffff66;
+    transform: scale(1.02);
 }
 
-#paginacion button {
-  background: #0ff;
-  color: #111;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
+#controles-container select:focus,
+#controles-container button:focus {
+    box-shadow: 0 2px 12px #00ffff99;
 }
 
-#paginacion button:hover {
-  background: #00cccc;
-  transform: translateY(-2px);
+/* Estilo específico para el botón aleatorio */
+#juego-aleatorio {
+    background: #444; 
+    color: #0ff; 
+    font-weight: bold;
 }
 
-#paginacion span {
-  color: #ccc;
-  font-size: 0.95rem;
+#juego-aleatorio:hover {
+    background: #00cccca8;
+    transform: scale(1.05);
 }
 
-/* JUEGOS */
+/* --- LISTA DE JUEGOS --- */
 #juegos-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1.5rem;
-  width: 95%;
-  margin: 0 auto;
-  padding: 2rem;
-  justify-items: center;
-}
-
-@media (max-width: 1200px) {
-  #juegos-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (max-width: 800px) {
-  #juegos-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 500px) {
-  #juegos-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+    width: 95%;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .juego-card {
-  width: 100%;
-  background: #1a1a1a;
-  color: #f1f1f1;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 0 10px #0005;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(145deg, #1a1a1a, #222);
+    display: flex; /* Asegura que la imagen y el info se apilen */
+    flex-direction: column;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .juego-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 15px #0008;
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 
 .juego-card img {
-  width: 100%;
-  height: 110px;
-  object-fit: cover;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.juego-card:hover img {
+    transform: scale(1.05);
 }
 
 .juego-info {
-  padding: 0.7rem;
-  text-align: center;
+    padding: 0.8rem;
+    text-align: center;
+    display: flex; /* Habilitar Flexbox */
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    height: 100%; /* Asegurar que ocupe todo el espacio disponible en la tarjeta */
 }
-
 .juego-info h3 {
-  font-size: 1rem;
-  margin: 0.3rem 0;
+    font-size: 1.05rem;
+    margin: 0.4rem 0;
+    color: #0ff;
 }
 
 .nota {
-  font-size: 0.9rem;
-  opacity: 0.8;
+    font-size: 0.95rem;
+    opacity: 0.85;
 }
 
 .ver-mas {
-  display: inline-block;
-  margin-top: 0.4rem;
-  font-size: 0.9rem;
-  color: #0ff;
-  text-decoration: none;
+    margin-top: auto;
+    display: inline-block;
+    font-size: 20px;
+    color: #0ff;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
-@media (max-width: 500px) {
-  #juegos-container {
-    grid-template-columns: 1fr;
-    width: 90%;
-    padding: 1rem;
-  }
 
-  .juego-card {
-    max-width: 320px;
+.ver-mas:hover {
+    color: #00cccc;
+}
+
+/* --- PAGINACIÓN --- */
+#paginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0 3rem;
+    flex-wrap: wrap;
+}
+
+#paginacion button {
+    background: linear-gradient(145deg, #0ff, #00cccc);
+    color: #111;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+}
+
+#paginacion button:hover {
+    background: linear-gradient(145deg, #00e5e5, #009999);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.35);
+}
+
+#paginacion span {
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #333;
+    background-color: #1e1e1e;
+    font-size: 0.85rem;
+    color: #888;
+}
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+  #juegos-container { grid-template-columns: repeat(4, 1fr); } 
+}
+
+@media (max-width: 900px) {
+  #juegos-container { grid-template-columns: repeat(3, 1fr); } 
+}
+
+@media (max-width: 650px) {
+  #juegos-container { 
+    grid-template-columns: repeat(2, 1fr); 
   }
+}
+
+@media (max-width: 450px) {
+  #juegos-container { grid-template-columns: 1fr; } 
 }
