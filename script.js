@@ -1,4 +1,4 @@
-const apiKey = "5f293e60061a4ddda10338c50c1d61e6";
+const apiKey = "86b39a7f5a2a4bdea8db0ecd038562bc";
 const contenedorJuegos = document.getElementById("juegos-container");
 const inputBusqueda = document.getElementById("searchInput");
 const selectOrden = document.getElementById("orden-juegos");
